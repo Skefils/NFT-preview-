@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --primary-blue: hsl(217, 54%, 11%);
+  --secondary-blue: hsl(216, 50%, 16%);
+  --third-blue: hsl(215, 32%, 27%);
+}
+
+/* Utils */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: var(--primary-blue);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  display: flex;
+  margin: 0%;
+}
+
+.wrapper {
+  background-color: var(--secondary-blue);
+  border-radius: 15px;
+  width: 350px;
+  padding: 1.5rem;
+}
+
+.price-days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.days {
+}
+
+.creator {
+  display: flex;
+}
+
+.cube {
+  border-radius: 20px;
+}
